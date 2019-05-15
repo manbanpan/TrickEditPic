@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+target 'TrickEditPic' do
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'GPUImage'
+pod 'ReactiveObjC'
+pod 'PEPhotoCropEditor'
+pod 'TZImagePickerController'
+pod 'MJRefresh'
+pod 'AFNetworking'
+pod 'MJExtension'
+end
+

@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018030699502C9423F0A9FCE /* libPods-TrickEditPic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F59CFE58D890B9D67811BD /* libPods-TrickEditPic.a */; };
+		3EBDDF5F226D59F6005EDE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDDF5E226D59F6005EDE1B /* AppDelegate.m */; };
+		3EBDDF65226D59F6005EDE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBDDF63226D59F6005EDE1B /* Main.storyboard */; };
+		3EBDDF67226D59F8005EDE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBDDF66226D59F8005EDE1B /* Assets.xcassets */; };
+		3EBDDF6A226D59F8005EDE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBDDF68226D59F8005EDE1B /* LaunchScreen.storyboard */; };
+		3EBDDF6D226D59F8005EDE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDDF6C226D59F8005EDE1B /* main.m */; };
+		3EECDCE92280235E00E6EC34 /* UIButton+TCEBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDCE82280235E00E6EC34 /* UIButton+TCEBtn.m */; };
+		3EECDCEC22802A7E00E6EC34 /* UIView+TCEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDCEB22802A7E00E6EC34 /* UIView+TCEView.m */; };
+		3EECDCF12280347B00E6EC34 /* TCEPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDCF02280347B00E6EC34 /* TCEPhotoViewController.m */; };
+		3EECDCF5228034D900E6EC34 /* TCEPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDCF3228034D900E6EC34 /* TCEPhotoCollectionViewCell.m */; };
+		3EECDCF6228034D900E6EC34 /* TCEPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EECDCF4228034D900E6EC34 /* TCEPhotoCollectionViewCell.xib */; };
+		3EECDCF92280446400E6EC34 /* TCEPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDCF82280446400E6EC34 /* TCEPhotoManager.m */; };
+		3EECDD992282BB9600E6EC34 /* TceEditBorderListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD4D2282BB9400E6EC34 /* TceEditBorderListCell.m */; };
+		3EECDD9A2282BB9600E6EC34 /* TceEditBorderListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EECDD4F2282BB9400E6EC34 /* TceEditBorderListCell.xib */; };
+		3EECDD9B2282BB9600E6EC34 /* TceEditBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD512282BB9400E6EC34 /* TceEditBorderView.m */; };
+		3EECDD9C2282BB9600E6EC34 /* TceEditEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD522282BB9400E6EC34 /* TceEditEditViewController.m */; };
+		3EECDD9D2282BB9600E6EC34 /* TceEditTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD542282BB9500E6EC34 /* TceEditTabBarView.m */; };
+		3EECDD9F2282BB9600E6EC34 /* TceEditAllFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD582282BB9500E6EC34 /* TceEditAllFilterManager.m */; };
+		3EECDDB52282BB9600E6EC34 /* TceEditFilterListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EECDD872282BB9500E6EC34 /* TceEditFilterListCell.xib */; };
+		3EECDDB62282BB9600E6EC34 /* TceEditFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD882282BB9500E6EC34 /* TceEditFilterView.m */; };
+		3EECDDB72282BB9600E6EC34 /* TceEditFilterListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD892282BB9500E6EC34 /* TceEditFilterListCell.m */; };
+		3EECDDB82282BB9600E6EC34 /* TceEditCuttingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD8D2282BB9500E6EC34 /* TceEditCuttingView.m */; };
+		3EECDDB92282BB9600E6EC34 /* TceEditClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD8F2282BB9500E6EC34 /* TceEditClipView.m */; };
+		3EECDDBA2282BB9600E6EC34 /* TceEditAdjustView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD942282BB9600E6EC34 /* TceEditAdjustView.m */; };
+		3EECDDBB2282BB9600E6EC34 /* TceEditAdjustManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD952282BB9600E6EC34 /* TceEditAdjustManager.m */; };
+		3EECDDBC2282BB9600E6EC34 /* TceEditRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDD982282BB9600E6EC34 /* TceEditRotateView.m */; };
+		3EECDDEC2282BC0E00E6EC34 /* GPUImageFourInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDDC82282BC0700E6EC34 /* GPUImageFourInputFilter.m */; };
+		3EECDDF32282BC0E00E6EC34 /* TceEditFerLvJy1977Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDDD42282BC0900E6EC34 /* TceEditFerLvJy1977Filter.m */; };
+		3EECDDF82282BC0E00E6EC34 /* TceEditFerLvJyAmaroFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDDE32282BC0D00E6EC34 /* TceEditFerLvJyAmaroFilter.m */; };
+		3EECDDFF2282BD3400E6EC34 /* UIImage+TCEImge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDDFE2282BD3400E6EC34 /* UIImage+TCEImge.m */; };
+		3EECDE242283CD6800E6EC34 /* TceEditFerLvJyWaldenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE002283CD6600E6EC34 /* TceEditFerLvJyWaldenFilter.m */; };
+		3EECDE252283CD6800E6EC34 /* TceEditFerLvJyLordKelvinFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE012283CD6600E6EC34 /* TceEditFerLvJyLordKelvinFilter.m */; };
+		3EECDE262283CD6800E6EC34 /* TceEditFerLvJySixInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE022283CD6600E6EC34 /* TceEditFerLvJySixInputFilter.m */; };
+		3EECDE272283CD6800E6EC34 /* TceEditFerLvJyHefeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE032283CD6600E6EC34 /* TceEditFerLvJyHefeFilter.m */; };
+		3EECDE282283CD6800E6EC34 /* TceEditFerLvJyNashvilleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE042283CD6600E6EC34 /* TceEditFerLvJyNashvilleFilter.m */; };
+		3EECDE292283CD6800E6EC34 /* TceEditFerLvJyFiveInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE072283CD6600E6EC34 /* TceEditFerLvJyFiveInputFilter.m */; };
+		3EECDE2A2283CD6800E6EC34 /* TceEditFerLvJyXproIIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE0E2283CD6700E6EC34 /* TceEditFerLvJyXproIIFilter.m */; };
+		3EECDE2B2283CD6800E6EC34 /* TceEditFerLvJyToasterFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE102283CD6700E6EC34 /* TceEditFerLvJyToasterFilter.m */; };
+		3EECDE2C2283CD6800E6EC34 /* TceEditFerLvJyRiseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE112283CD6700E6EC34 /* TceEditFerLvJyRiseFilter.m */; };
+		3EECDE2D2283CD6800E6EC34 /* TceEditFerLvJyBrannanFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE132283CD6700E6EC34 /* TceEditFerLvJyBrannanFilter.m */; };
+		3EECDE2E2283CD6800E6EC34 /* TceEditFerLvJyHudsonFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE162283CD6700E6EC34 /* TceEditFerLvJyHudsonFilter.m */; };
+		3EECDE2F2283CD6800E6EC34 /* TceEditFerLvJyEarlybirdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE172283CD6700E6EC34 /* TceEditFerLvJyEarlybirdFilter.m */; };
+		3EECDE302283CD6800E6EC34 /* TceEditFerLvJySutroFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE1A2283CD6800E6EC34 /* TceEditFerLvJySutroFilter.m */; };
+		3EECDE312283CD6800E6EC34 /* TceEditFerLvJyValenciaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE1B2283CD6800E6EC34 /* TceEditFerLvJyValenciaFilter.m */; };
+		3EECDE322283CD6800E6EC34 /* TceEditFerLvJyInkwellFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE1D2283CD6800E6EC34 /* TceEditFerLvJyInkwellFilter.m */; };
+		3EECDE332283CD6800E6EC34 /* TceEditFerLvJyLOMOFilter1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE1E2283CD6800E6EC34 /* TceEditFerLvJyLOMOFilter1.m */; };
+		3EECDE342283CD6800E6EC34 /* TceEditFerLvJySierraFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE1F2283CD6800E6EC34 /* TceEditFerLvJySierraFilter.m */; };
+		3EECDE352283CD6800E6EC34 /* TceEditFerLvJyLomofiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE232283CD6800E6EC34 /* TceEditFerLvJyLomofiFilter.m */; };
+		3EECDE392283D1F100E6EC34 /* TCEPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE382283D1F100E6EC34 /* TCEPuzzleViewController.m */; };
+		3EECDE412283D43000E6EC34 /* TcePuzzlePuzzleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE3D2283D42F00E6EC34 /* TcePuzzlePuzzleView.m */; };
+		3EECDE422283D43000E6EC34 /* TcePuzzleViewFrameAndPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE3F2283D42F00E6EC34 /* TcePuzzleViewFrameAndPoint.m */; };
+		3EECDE432283D43000E6EC34 /* TcePuzzlePuzzleEditScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE402283D43000E6EC34 /* TcePuzzlePuzzleEditScrollView.m */; };
+		3EECDE472283D47E00E6EC34 /* TCEPuzzleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE462283D47E00E6EC34 /* TCEPuzzleBarView.m */; };
+		3EECDE4C2284042800E6EC34 /* TCEPhotoFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE4B2284042800E6EC34 /* TCEPhotoFrameView.m */; };
+		3EECDE4F22840A0000E6EC34 /* TCEPuzzleStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE4E22840A0000E6EC34 /* TCEPuzzleStyleView.m */; };
+		3EECDE5222840E9200E6EC34 /* TCEPuzzleBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE5122840E9200E6EC34 /* TCEPuzzleBgView.m */; };
+		3EECDE552284227400E6EC34 /* TCEPhotoSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE542284227400E6EC34 /* TCEPhotoSizeView.m */; };
+		3EECDE5922842B1700E6EC34 /* TCESingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE5822842B1700E6EC34 /* TCESingle.m */; };
+		3EECDE8022851CF900E6EC34 /* TCEEditStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE7F22851CF900E6EC34 /* TCEEditStickerView.m */; };
+		3EECDE8522851DC700E6EC34 /* TCEStickerListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE8322851DC700E6EC34 /* TCEStickerListCell.m */; };
+		3EECDE8622851DC700E6EC34 /* TCEStickerListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EECDE8422851DC700E6EC34 /* TCEStickerListCell.xib */; };
+		3EECDE8A22851EEC00E6EC34 /* TCENetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE8922851EEC00E6EC34 /* TCENetManager.m */; };
+		3EECDE8D228520AF00E6EC34 /* NSString+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE8C228520AF00E6EC34 /* NSString+Json.m */; };
+		3EECDE9C228521D000E6EC34 /* UICollectionView+SideRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE90228521D000E6EC34 /* UICollectionView+SideRefresh.m */; };
+		3EECDE9D228521D000E6EC34 /* SideRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE91228521D000E6EC34 /* SideRefreshHeader.m */; };
+		3EECDE9E228521D000E6EC34 /* SideRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE92228521D000E6EC34 /* SideRefreshFooter.m */; };
+		3EECDE9F228521D000E6EC34 /* SideRefreshEmptyFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE94228521D000E6EC34 /* SideRefreshEmptyFooter.m */; };
+		3EECDEA0228521D000E6EC34 /* SideRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE95228521D000E6EC34 /* SideRefresh.m */; };
+		3EECDEA1228521D000E6EC34 /* UICollectionView+SideExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDE96228521D000E6EC34 /* UICollectionView+SideExtension.m */; };
+		3EECDEA42285241C00E6EC34 /* TCEStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDEA22285241B00E6EC34 /* TCEStickerView.m */; };
+		3EECDEA82285678300E6EC34 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDEA72285678300E6EC34 /* GTMBase64.m */; };
+		3EF517F3227FD40400DB1EBF /* TCEDoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF517F2227FD40400DB1EBF /* TCEDoorViewController.m */; };
+		3EF517F6227FD47A00DB1EBF /* TCEBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF517F5227FD47A00DB1EBF /* TCEBaseNavViewController.m */; };
+		3EF517FA227FD4B100DB1EBF /* TCEBaseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF517F9227FD4B100DB1EBF /* TCEBaseMainViewController.m */; };
+		3EF517FD227FD4C200DB1EBF /* TCEHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF517FC227FD4C200DB1EBF /* TCEHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24155A88F0CF69161545E275 /* Pods-TrickEditPic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrickEditPic.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrickEditPic/Pods-TrickEditPic.release.xcconfig"; sourceTree = "<group>"; };
+		29F59CFE58D890B9D67811BD /* libPods-TrickEditPic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrickEditPic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBDDF5A226D59F6005EDE1B /* TrickEditPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrickEditPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBDDF5D226D59F6005EDE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EBDDF5E226D59F6005EDE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EBDDF64226D59F6005EDE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EBDDF66226D59F8005EDE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EBDDF69226D59F8005EDE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EBDDF6B226D59F8005EDE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EBDDF6C226D59F8005EDE1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EECDCE72280235E00E6EC34 /* UIButton+TCEBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TCEBtn.h"; sourceTree = "<group>"; };
+		3EECDCE82280235E00E6EC34 /* UIButton+TCEBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TCEBtn.m"; sourceTree = "<group>"; };
+		3EECDCEA22802A7E00E6EC34 /* UIView+TCEView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TCEView.h"; sourceTree = "<group>"; };
+		3EECDCEB22802A7E00E6EC34 /* UIView+TCEView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TCEView.m"; sourceTree = "<group>"; };
+		3EECDCED22802B8200E6EC34 /* PublicVar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicVar.h; sourceTree = "<group>"; };
+		3EECDCEF2280347B00E6EC34 /* TCEPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPhotoViewController.h; sourceTree = "<group>"; };
+		3EECDCF02280347B00E6EC34 /* TCEPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPhotoViewController.m; sourceTree = "<group>"; };
+		3EECDCF2228034D900E6EC34 /* TCEPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		3EECDCF3228034D900E6EC34 /* TCEPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		3EECDCF4228034D900E6EC34 /* TCEPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TCEPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		3EECDCF72280446400E6EC34 /* TCEPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPhotoManager.h; sourceTree = "<group>"; };
+		3EECDCF82280446400E6EC34 /* TCEPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPhotoManager.m; sourceTree = "<group>"; };
+		3EECDCFE2281351200E6EC34 /* TCEPhotoPublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPhotoPublic.h; sourceTree = "<group>"; };
+		3EECDD4D2282BB9400E6EC34 /* TceEditBorderListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditBorderListCell.m; sourceTree = "<group>"; };
+		3EECDD4E2282BB9400E6EC34 /* TceEditBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditBorderView.h; sourceTree = "<group>"; };
+		3EECDD4F2282BB9400E6EC34 /* TceEditBorderListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TceEditBorderListCell.xib; sourceTree = "<group>"; };
+		3EECDD502282BB9400E6EC34 /* TceEditBorderListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditBorderListCell.h; sourceTree = "<group>"; };
+		3EECDD512282BB9400E6EC34 /* TceEditBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditBorderView.m; sourceTree = "<group>"; };
+		3EECDD522282BB9400E6EC34 /* TceEditEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditEditViewController.m; sourceTree = "<group>"; };
+		3EECDD542282BB9500E6EC34 /* TceEditTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditTabBarView.m; sourceTree = "<group>"; };
+		3EECDD552282BB9500E6EC34 /* TceEditTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditTabBarView.h; sourceTree = "<group>"; };
+		3EECDD582282BB9500E6EC34 /* TceEditAllFilterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditAllFilterManager.m; sourceTree = "<group>"; };
+		3EECDD592282BB9500E6EC34 /* TceEditFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFilterView.h; sourceTree = "<group>"; };
+		3EECDD5A2282BB9500E6EC34 /* TceEditFilterListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFilterListCell.h; sourceTree = "<group>"; };
+		3EECDD862282BB9500E6EC34 /* TceEditAllFilterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditAllFilterManager.h; sourceTree = "<group>"; };
+		3EECDD872282BB9500E6EC34 /* TceEditFilterListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TceEditFilterListCell.xib; sourceTree = "<group>"; };
+		3EECDD882282BB9500E6EC34 /* TceEditFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFilterView.m; sourceTree = "<group>"; };
+		3EECDD892282BB9500E6EC34 /* TceEditFilterListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFilterListCell.m; sourceTree = "<group>"; };
+		3EECDD8B2282BB9500E6EC34 /* TceEditClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditClipView.h; sourceTree = "<group>"; };
+		3EECDD8D2282BB9500E6EC34 /* TceEditCuttingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditCuttingView.m; sourceTree = "<group>"; };
+		3EECDD8E2282BB9500E6EC34 /* TceEditCuttingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditCuttingView.h; sourceTree = "<group>"; };
+		3EECDD8F2282BB9500E6EC34 /* TceEditClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditClipView.m; sourceTree = "<group>"; };
+		3EECDD902282BB9600E6EC34 /* TceEditEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditEditViewController.h; sourceTree = "<group>"; };
+		3EECDD922282BB9600E6EC34 /* TceEditAdjustView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditAdjustView.h; sourceTree = "<group>"; };
+		3EECDD932282BB9600E6EC34 /* TceEditAdjustManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditAdjustManager.h; sourceTree = "<group>"; };
+		3EECDD942282BB9600E6EC34 /* TceEditAdjustView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditAdjustView.m; sourceTree = "<group>"; };
+		3EECDD952282BB9600E6EC34 /* TceEditAdjustManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditAdjustManager.m; sourceTree = "<group>"; };
+		3EECDD972282BB9600E6EC34 /* TceEditRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditRotateView.h; sourceTree = "<group>"; };
+		3EECDD982282BB9600E6EC34 /* TceEditRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditRotateView.m; sourceTree = "<group>"; };
+		3EECDDC82282BC0700E6EC34 /* GPUImageFourInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFourInputFilter.m; sourceTree = "<group>"; };
+		3EECDDD42282BC0900E6EC34 /* TceEditFerLvJy1977Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJy1977Filter.m; sourceTree = "<group>"; };
+		3EECDDDD2282BC0C00E6EC34 /* GPUImageFourInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFourInputFilter.h; sourceTree = "<group>"; };
+		3EECDDDE2282BC0C00E6EC34 /* TceEditFerLvJyAmaroFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyAmaroFilter.h; sourceTree = "<group>"; };
+		3EECDDE22282BC0D00E6EC34 /* TceEditFerLvJy1977Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJy1977Filter.h; sourceTree = "<group>"; };
+		3EECDDE32282BC0D00E6EC34 /* TceEditFerLvJyAmaroFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyAmaroFilter.m; sourceTree = "<group>"; };
+		3EECDDFD2282BD3400E6EC34 /* UIImage+TCEImge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TCEImge.h"; sourceTree = "<group>"; };
+		3EECDDFE2282BD3400E6EC34 /* UIImage+TCEImge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TCEImge.m"; sourceTree = "<group>"; };
+		3EECDE002283CD6600E6EC34 /* TceEditFerLvJyWaldenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyWaldenFilter.m; sourceTree = "<group>"; };
+		3EECDE012283CD6600E6EC34 /* TceEditFerLvJyLordKelvinFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyLordKelvinFilter.m; sourceTree = "<group>"; };
+		3EECDE022283CD6600E6EC34 /* TceEditFerLvJySixInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJySixInputFilter.m; sourceTree = "<group>"; };
+		3EECDE032283CD6600E6EC34 /* TceEditFerLvJyHefeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyHefeFilter.m; sourceTree = "<group>"; };
+		3EECDE042283CD6600E6EC34 /* TceEditFerLvJyNashvilleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyNashvilleFilter.m; sourceTree = "<group>"; };
+		3EECDE052283CD6600E6EC34 /* TceEditFerLvJyLomofiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyLomofiFilter.h; sourceTree = "<group>"; };
+		3EECDE062283CD6600E6EC34 /* TceEditFerLvJyLordKelvinFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyLordKelvinFilter.h; sourceTree = "<group>"; };
+		3EECDE072283CD6600E6EC34 /* TceEditFerLvJyFiveInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyFiveInputFilter.m; sourceTree = "<group>"; };
+		3EECDE082283CD6600E6EC34 /* TceEditFerLvJyNashvilleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyNashvilleFilter.h; sourceTree = "<group>"; };
+		3EECDE092283CD6700E6EC34 /* TceEditFerLvJySierraFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJySierraFilter.h; sourceTree = "<group>"; };
+		3EECDE0A2283CD6700E6EC34 /* TceEditFerLvJyInkwellFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyInkwellFilter.h; sourceTree = "<group>"; };
+		3EECDE0B2283CD6700E6EC34 /* TceEditFerLvJySixInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJySixInputFilter.h; sourceTree = "<group>"; };
+		3EECDE0C2283CD6700E6EC34 /* TceEditFerLvJyFiveInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyFiveInputFilter.h; sourceTree = "<group>"; };
+		3EECDE0D2283CD6700E6EC34 /* TceEditFerLvJyWaldenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyWaldenFilter.h; sourceTree = "<group>"; };
+		3EECDE0E2283CD6700E6EC34 /* TceEditFerLvJyXproIIFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyXproIIFilter.m; sourceTree = "<group>"; };
+		3EECDE0F2283CD6700E6EC34 /* TceEditFerLvJyRiseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyRiseFilter.h; sourceTree = "<group>"; };
+		3EECDE102283CD6700E6EC34 /* TceEditFerLvJyToasterFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyToasterFilter.m; sourceTree = "<group>"; };
+		3EECDE112283CD6700E6EC34 /* TceEditFerLvJyRiseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyRiseFilter.m; sourceTree = "<group>"; };
+		3EECDE122283CD6700E6EC34 /* TceEditFerLvJyValenciaFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyValenciaFilter.h; sourceTree = "<group>"; };
+		3EECDE132283CD6700E6EC34 /* TceEditFerLvJyBrannanFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyBrannanFilter.m; sourceTree = "<group>"; };
+		3EECDE142283CD6700E6EC34 /* TceEditFerLvJyHudsonFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyHudsonFilter.h; sourceTree = "<group>"; };
+		3EECDE152283CD6700E6EC34 /* TceEditFerLvJyLOMOFilter1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyLOMOFilter1.h; sourceTree = "<group>"; };
+		3EECDE162283CD6700E6EC34 /* TceEditFerLvJyHudsonFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyHudsonFilter.m; sourceTree = "<group>"; };
+		3EECDE172283CD6700E6EC34 /* TceEditFerLvJyEarlybirdFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyEarlybirdFilter.m; sourceTree = "<group>"; };
+		3EECDE182283CD6700E6EC34 /* TceEditFerLvJyHefeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyHefeFilter.h; sourceTree = "<group>"; };
+		3EECDE192283CD6800E6EC34 /* TceEditFerLvJyEarlybirdFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyEarlybirdFilter.h; sourceTree = "<group>"; };
+		3EECDE1A2283CD6800E6EC34 /* TceEditFerLvJySutroFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJySutroFilter.m; sourceTree = "<group>"; };
+		3EECDE1B2283CD6800E6EC34 /* TceEditFerLvJyValenciaFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyValenciaFilter.m; sourceTree = "<group>"; };
+		3EECDE1C2283CD6800E6EC34 /* TceEditFerLvJyBrannanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyBrannanFilter.h; sourceTree = "<group>"; };
+		3EECDE1D2283CD6800E6EC34 /* TceEditFerLvJyInkwellFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyInkwellFilter.m; sourceTree = "<group>"; };
+		3EECDE1E2283CD6800E6EC34 /* TceEditFerLvJyLOMOFilter1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyLOMOFilter1.m; sourceTree = "<group>"; };
+		3EECDE1F2283CD6800E6EC34 /* TceEditFerLvJySierraFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJySierraFilter.m; sourceTree = "<group>"; };
+		3EECDE202283CD6800E6EC34 /* TceEditFerLvJySutroFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJySutroFilter.h; sourceTree = "<group>"; };
+		3EECDE212283CD6800E6EC34 /* TceEditFerLvJyToasterFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyToasterFilter.h; sourceTree = "<group>"; };
+		3EECDE222283CD6800E6EC34 /* TceEditFerLvJyXproIIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TceEditFerLvJyXproIIFilter.h; sourceTree = "<group>"; };
+		3EECDE232283CD6800E6EC34 /* TceEditFerLvJyLomofiFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TceEditFerLvJyLomofiFilter.m; sourceTree = "<group>"; };
+		3EECDE372283D1F100E6EC34 /* TCEPuzzleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPuzzleViewController.h; sourceTree = "<group>"; };
+		3EECDE382283D1F100E6EC34 /* TCEPuzzleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPuzzleViewController.m; sourceTree = "<group>"; };
+		3EECDE3B2283D42E00E6EC34 /* TcePuzzlePuzzleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcePuzzlePuzzleView.h; sourceTree = "<group>"; };
+		3EECDE3C2283D42F00E6EC34 /* TcePuzzlePuzzleEditScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcePuzzlePuzzleEditScrollView.h; sourceTree = "<group>"; };
+		3EECDE3D2283D42F00E6EC34 /* TcePuzzlePuzzleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TcePuzzlePuzzleView.m; sourceTree = "<group>"; };
+		3EECDE3E2283D42F00E6EC34 /* TcePuzzleViewFrameAndPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcePuzzleViewFrameAndPoint.h; sourceTree = "<group>"; };
+		3EECDE3F2283D42F00E6EC34 /* TcePuzzleViewFrameAndPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TcePuzzleViewFrameAndPoint.m; sourceTree = "<group>"; };
+		3EECDE402283D43000E6EC34 /* TcePuzzlePuzzleEditScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TcePuzzlePuzzleEditScrollView.m; sourceTree = "<group>"; };
+		3EECDE452283D47E00E6EC34 /* TCEPuzzleBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPuzzleBarView.h; sourceTree = "<group>"; };
+		3EECDE462283D47E00E6EC34 /* TCEPuzzleBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPuzzleBarView.m; sourceTree = "<group>"; };
+		3EECDE4A2284042800E6EC34 /* TCEPhotoFrameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPhotoFrameView.h; sourceTree = "<group>"; };
+		3EECDE4B2284042800E6EC34 /* TCEPhotoFrameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPhotoFrameView.m; sourceTree = "<group>"; };
+		3EECDE4D22840A0000E6EC34 /* TCEPuzzleStyleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPuzzleStyleView.h; sourceTree = "<group>"; };
+		3EECDE4E22840A0000E6EC34 /* TCEPuzzleStyleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPuzzleStyleView.m; sourceTree = "<group>"; };
+		3EECDE5022840E9200E6EC34 /* TCEPuzzleBgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPuzzleBgView.h; sourceTree = "<group>"; };
+		3EECDE5122840E9200E6EC34 /* TCEPuzzleBgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPuzzleBgView.m; sourceTree = "<group>"; };
+		3EECDE532284227400E6EC34 /* TCEPhotoSizeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEPhotoSizeView.h; sourceTree = "<group>"; };
+		3EECDE542284227400E6EC34 /* TCEPhotoSizeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEPhotoSizeView.m; sourceTree = "<group>"; };
+		3EECDE5722842B1700E6EC34 /* TCESingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCESingle.h; sourceTree = "<group>"; };
+		3EECDE5822842B1700E6EC34 /* TCESingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCESingle.m; sourceTree = "<group>"; };
+		3EECDE7E22851CF900E6EC34 /* TCEEditStickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEEditStickerView.h; sourceTree = "<group>"; };
+		3EECDE7F22851CF900E6EC34 /* TCEEditStickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEEditStickerView.m; sourceTree = "<group>"; };
+		3EECDE8222851DC700E6EC34 /* TCEStickerListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEStickerListCell.h; sourceTree = "<group>"; };
+		3EECDE8322851DC700E6EC34 /* TCEStickerListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEStickerListCell.m; sourceTree = "<group>"; };
+		3EECDE8422851DC700E6EC34 /* TCEStickerListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TCEStickerListCell.xib; sourceTree = "<group>"; };
+		3EECDE8822851EEC00E6EC34 /* TCENetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCENetManager.h; sourceTree = "<group>"; };
+		3EECDE8922851EEC00E6EC34 /* TCENetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCENetManager.m; sourceTree = "<group>"; };
+		3EECDE8B228520AE00E6EC34 /* NSString+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Json.h"; sourceTree = "<group>"; };
+		3EECDE8C228520AF00E6EC34 /* NSString+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Json.m"; sourceTree = "<group>"; };
+		3EECDE90228521D000E6EC34 /* UICollectionView+SideRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+SideRefresh.m"; sourceTree = "<group>"; };
+		3EECDE91228521D000E6EC34 /* SideRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideRefreshHeader.m; sourceTree = "<group>"; };
+		3EECDE92228521D000E6EC34 /* SideRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideRefreshFooter.m; sourceTree = "<group>"; };
+		3EECDE93228521D000E6EC34 /* UICollectionView+SideExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+SideExtension.h"; sourceTree = "<group>"; };
+		3EECDE94228521D000E6EC34 /* SideRefreshEmptyFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideRefreshEmptyFooter.m; sourceTree = "<group>"; };
+		3EECDE95228521D000E6EC34 /* SideRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideRefresh.m; sourceTree = "<group>"; };
+		3EECDE96228521D000E6EC34 /* UICollectionView+SideExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+SideExtension.m"; sourceTree = "<group>"; };
+		3EECDE97228521D000E6EC34 /* SideRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideRefreshFooter.h; sourceTree = "<group>"; };
+		3EECDE98228521D000E6EC34 /* SideRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideRefreshHeader.h; sourceTree = "<group>"; };
+		3EECDE99228521D000E6EC34 /* UICollectionView+SideRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+SideRefresh.h"; sourceTree = "<group>"; };
+		3EECDE9A228521D000E6EC34 /* SideRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideRefresh.h; sourceTree = "<group>"; };
+		3EECDE9B228521D000E6EC34 /* SideRefreshEmptyFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideRefreshEmptyFooter.h; sourceTree = "<group>"; };
+		3EECDEA22285241B00E6EC34 /* TCEStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEStickerView.m; sourceTree = "<group>"; };
+		3EECDEA32285241B00E6EC34 /* TCEStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEStickerView.h; sourceTree = "<group>"; };
+		3EECDEA52285678200E6EC34 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		3EECDEA62285678300E6EC34 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		3EECDEA72285678300E6EC34 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		3EF517F1227FD40400DB1EBF /* TCEDoorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEDoorViewController.h; sourceTree = "<group>"; };
+		3EF517F2227FD40400DB1EBF /* TCEDoorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEDoorViewController.m; sourceTree = "<group>"; };
+		3EF517F4227FD47A00DB1EBF /* TCEBaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEBaseNavViewController.h; sourceTree = "<group>"; };
+		3EF517F5227FD47A00DB1EBF /* TCEBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEBaseNavViewController.m; sourceTree = "<group>"; };
+		3EF517F8227FD4B100DB1EBF /* TCEBaseMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEBaseMainViewController.h; sourceTree = "<group>"; };
+		3EF517F9227FD4B100DB1EBF /* TCEBaseMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEBaseMainViewController.m; sourceTree = "<group>"; };
+		3EF517FB227FD4C200DB1EBF /* TCEHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCEHomeViewController.h; sourceTree = "<group>"; };
+		3EF517FC227FD4C200DB1EBF /* TCEHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCEHomeViewController.m; sourceTree = "<group>"; };
+		3EF517FF227FDB2400DB1EBF /* PublicPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicPCH.pch; sourceTree = "<group>"; };
+		3EF51800227FDB3D00DB1EBF /* PublicColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicColor.h; sourceTree = "<group>"; };
+		B173CF9E75C1716CAFEEB748 /* Pods-TrickEditPic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrickEditPic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrickEditPic/Pods-TrickEditPic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EBDDF57226D59F6005EDE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018030699502C9423F0A9FCE /* libPods-TrickEditPic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EBDDF51226D59F6005EDE1B = {
+			isa = PBXGroup;
+			children = (
+				3EBDDF5C226D59F6005EDE1B /* TrickEditPic */,
+				3EBDDF5B226D59F6005EDE1B /* Products */,
+				F3D67767A25AB0F6CC9507A1 /* Pods */,
+				FC30C219D8BF363189E9BDAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EBDDF5B226D59F6005EDE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EBDDF5A226D59F6005EDE1B /* TrickEditPic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EBDDF5C226D59F6005EDE1B /* TrickEditPic */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE8722851ED500E6EC34 /* Net-trick */,
+				3EECDE362283D14400E6EC34 /* Puzzle-trick */,
+				3EECDD4B2282B92200E6EC34 /* Edit-trick */,
+				3EECDCEE2280341A00E6EC34 /* Photo-trick */,
+				3EECDCE62280233700E6EC34 /* Catergory-trick */,
+				3EF517FE227FDB0600DB1EBF /* Public-trick */,
+				3EF517F7227FD48300DB1EBF /* Home-trick */,
+				3EF517F0227FD2D800DB1EBF /* Main-trick */,
+				3EBDDF66226D59F8005EDE1B /* Assets.xcassets */,
+				3EBDDF6B226D59F8005EDE1B /* Info.plist */,
+				3EBDDF6C226D59F8005EDE1B /* main.m */,
+			);
+			path = TrickEditPic;
+			sourceTree = "<group>";
+		};
+		3EECDCE62280233700E6EC34 /* Catergory-trick */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE8B228520AE00E6EC34 /* NSString+Json.h */,
+				3EECDE8C228520AF00E6EC34 /* NSString+Json.m */,
+				3EECDCE72280235E00E6EC34 /* UIButton+TCEBtn.h */,
+				3EECDCE82280235E00E6EC34 /* UIButton+TCEBtn.m */,
+				3EECDCEA22802A7E00E6EC34 /* UIView+TCEView.h */,
+				3EECDCEB22802A7E00E6EC34 /* UIView+TCEView.m */,
+				3EECDDFD2282BD3400E6EC34 /* UIImage+TCEImge.h */,
+				3EECDDFE2282BD3400E6EC34 /* UIImage+TCEImge.m */,
+			);
+			path = "Catergory-trick";
+			sourceTree = "<group>";
+		};
+		3EECDCEE2280341A00E6EC34 /* Photo-trick */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDCFD228134F300E6EC34 /* Public */,
+				3EECDCFC228134E100E6EC34 /* Cell */,
+				3EECDCFB228134DB00E6EC34 /* VC */,
+			);
+			path = "Photo-trick";
+			sourceTree = "<group>";
+		};
+		3EECDCFB228134DB00E6EC34 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDCEF2280347B00E6EC34 /* TCEPhotoViewController.h */,
+				3EECDCF02280347B00E6EC34 /* TCEPhotoViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		3EECDCFC228134E100E6EC34 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDCF2228034D900E6EC34 /* TCEPhotoCollectionViewCell.h */,
+				3EECDCF3228034D900E6EC34 /* TCEPhotoCollectionViewCell.m */,
+				3EECDCF4228034D900E6EC34 /* TCEPhotoCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3EECDCFD228134F300E6EC34 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDCF72280446400E6EC34 /* TCEPhotoManager.h */,
+				3EECDCF82280446400E6EC34 /* TCEPhotoManager.m */,
+				3EECDCFE2281351200E6EC34 /* TCEPhotoPublic.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		3EECDD4B2282B92200E6EC34 /* Edit-trick */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDDFC2282BC3100E6EC34 /* VC */,
+				3EECDE5B2284397400E6EC34 /* word */,
+				3EECDE5A2284396B00E6EC34 /* Sticker */,
+				3EECDD912282BB9600E6EC34 /* adjust */,
+				3EECDD532282BB9500E6EC34 /* bar */,
+				3EECDD4C2282BB9400E6EC34 /* border */,
+				3EECDD8A2282BB9500E6EC34 /* Clip */,
+				3EECDD562282BB9500E6EC34 /* filter */,
+				3EECDD962282BB9600E6EC34 /* rotate */,
+			);
+			path = "Edit-trick";
+			sourceTree = "<group>";
+		};
+		3EECDD4C2282BB9400E6EC34 /* border */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDD502282BB9400E6EC34 /* TceEditBorderListCell.h */,
+				3EECDD4D2282BB9400E6EC34 /* TceEditBorderListCell.m */,
+				3EECDD4F2282BB9400E6EC34 /* TceEditBorderListCell.xib */,
+				3EECDD4E2282BB9400E6EC34 /* TceEditBorderView.h */,
+				3EECDD512282BB9400E6EC34 /* TceEditBorderView.m */,
+			);
+			path = border;
+			sourceTree = "<group>";
+		};
+		3EECDD532282BB9500E6EC34 /* bar */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDD552282BB9500E6EC34 /* TceEditTabBarView.h */,
+				3EECDD542282BB9500E6EC34 /* TceEditTabBarView.m */,
+			);
+			path = bar;
+			sourceTree = "<group>";
+		};
+		3EECDD562282BB9500E6EC34 /* filter */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDD862282BB9500E6EC34 /* TceEditAllFilterManager.h */,
+				3EECDD582282BB9500E6EC34 /* TceEditAllFilterManager.m */,
+				3EECDD592282BB9500E6EC34 /* TceEditFilterView.h */,
+				3EECDD882282BB9500E6EC34 /* TceEditFilterView.m */,
+				3EECDD5A2282BB9500E6EC34 /* TceEditFilterListCell.h */,
+				3EECDD892282BB9500E6EC34 /* TceEditFilterListCell.m */,
+				3EECDD872282BB9500E6EC34 /* TceEditFilterListCell.xib */,
+				3EECDD5B2282BB9500E6EC34 /* allfilter */,
+			);
+			path = filter;
+			sourceTree = "<group>";
+		};
+		3EECDD5B2282BB9500E6EC34 /* allfilter */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDDDD2282BC0C00E6EC34 /* GPUImageFourInputFilter.h */,
+				3EECDDC82282BC0700E6EC34 /* GPUImageFourInputFilter.m */,
+				3EECDDE22282BC0D00E6EC34 /* TceEditFerLvJy1977Filter.h */,
+				3EECDDD42282BC0900E6EC34 /* TceEditFerLvJy1977Filter.m */,
+				3EECDDDE2282BC0C00E6EC34 /* TceEditFerLvJyAmaroFilter.h */,
+				3EECDDE32282BC0D00E6EC34 /* TceEditFerLvJyAmaroFilter.m */,
+				3EECDE1C2283CD6800E6EC34 /* TceEditFerLvJyBrannanFilter.h */,
+				3EECDE132283CD6700E6EC34 /* TceEditFerLvJyBrannanFilter.m */,
+				3EECDE192283CD6800E6EC34 /* TceEditFerLvJyEarlybirdFilter.h */,
+				3EECDE172283CD6700E6EC34 /* TceEditFerLvJyEarlybirdFilter.m */,
+				3EECDE0C2283CD6700E6EC34 /* TceEditFerLvJyFiveInputFilter.h */,
+				3EECDE072283CD6600E6EC34 /* TceEditFerLvJyFiveInputFilter.m */,
+				3EECDE182283CD6700E6EC34 /* TceEditFerLvJyHefeFilter.h */,
+				3EECDE032283CD6600E6EC34 /* TceEditFerLvJyHefeFilter.m */,
+				3EECDE142283CD6700E6EC34 /* TceEditFerLvJyHudsonFilter.h */,
+				3EECDE162283CD6700E6EC34 /* TceEditFerLvJyHudsonFilter.m */,
+				3EECDE0A2283CD6700E6EC34 /* TceEditFerLvJyInkwellFilter.h */,
+				3EECDE1D2283CD6800E6EC34 /* TceEditFerLvJyInkwellFilter.m */,
+				3EECDE052283CD6600E6EC34 /* TceEditFerLvJyLomofiFilter.h */,
+				3EECDE232283CD6800E6EC34 /* TceEditFerLvJyLomofiFilter.m */,
+				3EECDE152283CD6700E6EC34 /* TceEditFerLvJyLOMOFilter1.h */,
+				3EECDE1E2283CD6800E6EC34 /* TceEditFerLvJyLOMOFilter1.m */,
+				3EECDE062283CD6600E6EC34 /* TceEditFerLvJyLordKelvinFilter.h */,
+				3EECDE012283CD6600E6EC34 /* TceEditFerLvJyLordKelvinFilter.m */,
+				3EECDE082283CD6600E6EC34 /* TceEditFerLvJyNashvilleFilter.h */,
+				3EECDE042283CD6600E6EC34 /* TceEditFerLvJyNashvilleFilter.m */,
+				3EECDE0F2283CD6700E6EC34 /* TceEditFerLvJyRiseFilter.h */,
+				3EECDE112283CD6700E6EC34 /* TceEditFerLvJyRiseFilter.m */,
+				3EECDE092283CD6700E6EC34 /* TceEditFerLvJySierraFilter.h */,
+				3EECDE1F2283CD6800E6EC34 /* TceEditFerLvJySierraFilter.m */,
+				3EECDE0B2283CD6700E6EC34 /* TceEditFerLvJySixInputFilter.h */,
+				3EECDE022283CD6600E6EC34 /* TceEditFerLvJySixInputFilter.m */,
+				3EECDE202283CD6800E6EC34 /* TceEditFerLvJySutroFilter.h */,
+				3EECDE1A2283CD6800E6EC34 /* TceEditFerLvJySutroFilter.m */,
+				3EECDE212283CD6800E6EC34 /* TceEditFerLvJyToasterFilter.h */,
+				3EECDE102283CD6700E6EC34 /* TceEditFerLvJyToasterFilter.m */,
+				3EECDE122283CD6700E6EC34 /* TceEditFerLvJyValenciaFilter.h */,
+				3EECDE1B2283CD6800E6EC34 /* TceEditFerLvJyValenciaFilter.m */,
+				3EECDE0D2283CD6700E6EC34 /* TceEditFerLvJyWaldenFilter.h */,
+				3EECDE002283CD6600E6EC34 /* TceEditFerLvJyWaldenFilter.m */,
+				3EECDE222283CD6800E6EC34 /* TceEditFerLvJyXproIIFilter.h */,
+				3EECDE0E2283CD6700E6EC34 /* TceEditFerLvJyXproIIFilter.m */,
+			);
+			path = allfilter;
+			sourceTree = "<group>";
+		};
+		3EECDD8A2282BB9500E6EC34 /* Clip */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDD8B2282BB9500E6EC34 /* TceEditClipView.h */,
+				3EECDD8F2282BB9500E6EC34 /* TceEditClipView.m */,
+				3EECDD8C2282BB9500E6EC34 /* coustom */,
+			);
+			path = Clip;
+			sourceTree = "<group>";
+		};
+		3EECDD8C2282BB9500E6EC34 /* coustom */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDD8E2282BB9500E6EC34 /* TceEditCuttingView.h */,
+				3EECDD8D2282BB9500E6EC34 /* TceEditCuttingView.m */,
+			);
+			path = coustom;
+			sourceTree = "<group>";
+		};
+		3EECDD912282BB9600E6EC34 /* adjust */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDD922282BB9600E6EC34 /* TceEditAdjustView.h */,
+				3EECDD942282BB9600E6EC34 /* TceEditAdjustView.m */,
+				3EECDD932282BB9600E6EC34 /* TceEditAdjustManager.h */,
+				3EECDD952282BB9600E6EC34 /* TceEditAdjustManager.m */,
+			);
+			path = adjust;
+			sourceTree = "<group>";
+		};
+		3EECDD962282BB9600E6EC34 /* rotate */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDD972282BB9600E6EC34 /* TceEditRotateView.h */,
+				3EECDD982282BB9600E6EC34 /* TceEditRotateView.m */,
+			);
+			path = rotate;
+			sourceTree = "<group>";
+		};
+		3EECDDFC2282BC3100E6EC34 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDD902282BB9600E6EC34 /* TceEditEditViewController.h */,
+				3EECDD522282BB9400E6EC34 /* TceEditEditViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		3EECDE362283D14400E6EC34 /* Puzzle-trick */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE5622842AFC00E6EC34 /* Single */,
+				3EECDE482283D66A00E6EC34 /* VC */,
+				3EECDE49228403C100E6EC34 /* View */,
+				3EECDE442283D45100E6EC34 /* BarView */,
+				3EECDE3A2283D42500E6EC34 /* puzzle */,
+			);
+			path = "Puzzle-trick";
+			sourceTree = "<group>";
+		};
+		3EECDE3A2283D42500E6EC34 /* puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE3C2283D42F00E6EC34 /* TcePuzzlePuzzleEditScrollView.h */,
+				3EECDE402283D43000E6EC34 /* TcePuzzlePuzzleEditScrollView.m */,
+				3EECDE3B2283D42E00E6EC34 /* TcePuzzlePuzzleView.h */,
+				3EECDE3D2283D42F00E6EC34 /* TcePuzzlePuzzleView.m */,
+				3EECDE3E2283D42F00E6EC34 /* TcePuzzleViewFrameAndPoint.h */,
+				3EECDE3F2283D42F00E6EC34 /* TcePuzzleViewFrameAndPoint.m */,
+			);
+			path = puzzle;
+			sourceTree = "<group>";
+		};
+		3EECDE442283D45100E6EC34 /* BarView */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE452283D47E00E6EC34 /* TCEPuzzleBarView.h */,
+				3EECDE462283D47E00E6EC34 /* TCEPuzzleBarView.m */,
+			);
+			path = BarView;
+			sourceTree = "<group>";
+		};
+		3EECDE482283D66A00E6EC34 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE372283D1F100E6EC34 /* TCEPuzzleViewController.h */,
+				3EECDE382283D1F100E6EC34 /* TCEPuzzleViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		3EECDE49228403C100E6EC34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE532284227400E6EC34 /* TCEPhotoSizeView.h */,
+				3EECDE542284227400E6EC34 /* TCEPhotoSizeView.m */,
+				3EECDE4A2284042800E6EC34 /* TCEPhotoFrameView.h */,
+				3EECDE4B2284042800E6EC34 /* TCEPhotoFrameView.m */,
+				3EECDE4D22840A0000E6EC34 /* TCEPuzzleStyleView.h */,
+				3EECDE4E22840A0000E6EC34 /* TCEPuzzleStyleView.m */,
+				3EECDE5022840E9200E6EC34 /* TCEPuzzleBgView.h */,
+				3EECDE5122840E9200E6EC34 /* TCEPuzzleBgView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EECDE5622842AFC00E6EC34 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE5722842B1700E6EC34 /* TCESingle.h */,
+				3EECDE5822842B1700E6EC34 /* TCESingle.m */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		3EECDE5A2284396B00E6EC34 /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE8122851DA400E6EC34 /* Cell */,
+				3EECDE7E22851CF900E6EC34 /* TCEEditStickerView.h */,
+				3EECDE7F22851CF900E6EC34 /* TCEEditStickerView.m */,
+				3EECDEA32285241B00E6EC34 /* TCEStickerView.h */,
+				3EECDEA22285241B00E6EC34 /* TCEStickerView.m */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		3EECDE5B2284397400E6EC34 /* word */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = word;
+			sourceTree = "<group>";
+		};
+		3EECDE8122851DA400E6EC34 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE8222851DC700E6EC34 /* TCEStickerListCell.h */,
+				3EECDE8322851DC700E6EC34 /* TCEStickerListCell.m */,
+				3EECDE8422851DC700E6EC34 /* TCEStickerListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3EECDE8722851ED500E6EC34 /* Net-trick */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE8E228521C500E6EC34 /* lib */,
+				3EECDE8822851EEC00E6EC34 /* TCENetManager.h */,
+				3EECDE8922851EEC00E6EC34 /* TCENetManager.m */,
+				3EECDEA52285678200E6EC34 /* GTMBase64.h */,
+				3EECDEA72285678300E6EC34 /* GTMBase64.m */,
+				3EECDEA62285678300E6EC34 /* GTMDefines.h */,
+			);
+			path = "Net-trick";
+			sourceTree = "<group>";
+		};
+		3EECDE8E228521C500E6EC34 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE8F228521D000E6EC34 /* SideRefresh */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		3EECDE8F228521D000E6EC34 /* SideRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				3EECDE93228521D000E6EC34 /* UICollectionView+SideExtension.h */,
+				3EECDE96228521D000E6EC34 /* UICollectionView+SideExtension.m */,
+				3EECDE99228521D000E6EC34 /* UICollectionView+SideRefresh.h */,
+				3EECDE90228521D000E6EC34 /* UICollectionView+SideRefresh.m */,
+				3EECDE98228521D000E6EC34 /* SideRefreshHeader.h */,
+				3EECDE91228521D000E6EC34 /* SideRefreshHeader.m */,
+				3EECDE97228521D000E6EC34 /* SideRefreshFooter.h */,
+				3EECDE92228521D000E6EC34 /* SideRefreshFooter.m */,
+				3EECDE9B228521D000E6EC34 /* SideRefreshEmptyFooter.h */,
+				3EECDE94228521D000E6EC34 /* SideRefreshEmptyFooter.m */,
+				3EECDE9A228521D000E6EC34 /* SideRefresh.h */,
+				3EECDE95228521D000E6EC34 /* SideRefresh.m */,
+			);
+			path = SideRefresh;
+			sourceTree = "<group>";
+		};
+		3EF517F0227FD2D800DB1EBF /* Main-trick */ = {
+			isa = PBXGroup;
+			children = (
+				3EBDDF5D226D59F6005EDE1B /* AppDelegate.h */,
+				3EBDDF5E226D59F6005EDE1B /* AppDelegate.m */,
+				3EF517F1227FD40400DB1EBF /* TCEDoorViewController.h */,
+				3EF517F2227FD40400DB1EBF /* TCEDoorViewController.m */,
+				3EF517F4227FD47A00DB1EBF /* TCEBaseNavViewController.h */,
+				3EF517F5227FD47A00DB1EBF /* TCEBaseNavViewController.m */,
+				3EF517F8227FD4B100DB1EBF /* TCEBaseMainViewController.h */,
+				3EF517F9227FD4B100DB1EBF /* TCEBaseMainViewController.m */,
+				3EBDDF63226D59F6005EDE1B /* Main.storyboard */,
+				3EBDDF68226D59F8005EDE1B /* LaunchScreen.storyboard */,
+			);
+			path = "Main-trick";
+			sourceTree = "<group>";
+		};
+		3EF517F7227FD48300DB1EBF /* Home-trick */ = {
+			isa = PBXGroup;
+			children = (
+				3EF517FB227FD4C200DB1EBF /* TCEHomeViewController.h */,
+				3EF517FC227FD4C200DB1EBF /* TCEHomeViewController.m */,
+			);
+			path = "Home-trick";
+			sourceTree = "<group>";
+		};
+		3EF517FE227FDB0600DB1EBF /* Public-trick */ = {
+			isa = PBXGroup;
+			children = (
+				3EF517FF227FDB2400DB1EBF /* PublicPCH.pch */,
+				3EF51800227FDB3D00DB1EBF /* PublicColor.h */,
+				3EECDCED22802B8200E6EC34 /* PublicVar.h */,
+			);
+			path = "Public-trick";
+			sourceTree = "<group>";
+		};
+		F3D67767A25AB0F6CC9507A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B173CF9E75C1716CAFEEB748 /* Pods-TrickEditPic.debug.xcconfig */,
+				24155A88F0CF69161545E275 /* Pods-TrickEditPic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC30C219D8BF363189E9BDAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29F59CFE58D890B9D67811BD /* libPods-TrickEditPic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EBDDF59226D59F6005EDE1B /* TrickEditPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBDDF70226D59F8005EDE1B /* Build configuration list for PBXNativeTarget "TrickEditPic" */;
+			buildPhases = (
+				1FD8B6202FA29B10C1AE68E0 /* [CP] Check Pods Manifest.lock */,
+				3EBDDF56226D59F6005EDE1B /* Sources */,
+				3EBDDF57226D59F6005EDE1B /* Frameworks */,
+				3EBDDF58226D59F6005EDE1B /* Resources */,
+				A77938E5BF19CF75CABF68A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrickEditPic;
+			productName = TrickEditPic;
+			productReference = 3EBDDF5A226D59F6005EDE1B /* TrickEditPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EBDDF52226D59F6005EDE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TCE;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = json;
+				TargetAttributes = {
+					3EBDDF59226D59F6005EDE1B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 3EBDDF55226D59F6005EDE1B /* Build configuration list for PBXProject "TrickEditPic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EBDDF51226D59F6005EDE1B;
+			productRefGroup = 3EBDDF5B226D59F6005EDE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EBDDF59226D59F6005EDE1B /* TrickEditPic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EBDDF58226D59F6005EDE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EECDD9A2282BB9600E6EC34 /* TceEditBorderListCell.xib in Resources */,
+				3EECDCF6228034D900E6EC34 /* TCEPhotoCollectionViewCell.xib in Resources */,
+				3EECDE8622851DC700E6EC34 /* TCEStickerListCell.xib in Resources */,
+				3EECDDB52282BB9600E6EC34 /* TceEditFilterListCell.xib in Resources */,
+				3EBDDF6A226D59F8005EDE1B /* LaunchScreen.storyboard in Resources */,
+				3EBDDF67226D59F8005EDE1B /* Assets.xcassets in Resources */,
+				3EBDDF65226D59F6005EDE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD8B6202FA29B10C1AE68E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrickEditPic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77938E5BF19CF75CABF68A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrickEditPic/Pods-TrickEditPic-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/PEPhotoCropEditor/Resources/PEPhotoCropEditor.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PEPhotoCropEditor.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrickEditPic/Pods-TrickEditPic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EBDDF56226D59F6005EDE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EECDE8A22851EEC00E6EC34 /* TCENetManager.m in Sources */,
+				3EECDDF82282BC0E00E6EC34 /* TceEditFerLvJyAmaroFilter.m in Sources */,
+				3EF517FD227FD4C200DB1EBF /* TCEHomeViewController.m in Sources */,
+				3EECDE332283CD6800E6EC34 /* TceEditFerLvJyLOMOFilter1.m in Sources */,
+				3EF517F6227FD47A00DB1EBF /* TCEBaseNavViewController.m in Sources */,
+				3EBDDF6D226D59F8005EDE1B /* main.m in Sources */,
+				3EECDE2E2283CD6800E6EC34 /* TceEditFerLvJyHudsonFilter.m in Sources */,
+				3EECDE302283CD6800E6EC34 /* TceEditFerLvJySutroFilter.m in Sources */,
+				3EECDE4C2284042800E6EC34 /* TCEPhotoFrameView.m in Sources */,
+				3EECDE432283D43000E6EC34 /* TcePuzzlePuzzleEditScrollView.m in Sources */,
+				3EECDD9D2282BB9600E6EC34 /* TceEditTabBarView.m in Sources */,
+				3EECDE262283CD6800E6EC34 /* TceEditFerLvJySixInputFilter.m in Sources */,
+				3EECDE2C2283CD6800E6EC34 /* TceEditFerLvJyRiseFilter.m in Sources */,
+				3EF517FA227FD4B100DB1EBF /* TCEBaseMainViewController.m in Sources */,
+				3EECDEA42285241C00E6EC34 /* TCEStickerView.m in Sources */,
+				3EECDE392283D1F100E6EC34 /* TCEPuzzleViewController.m in Sources */,
+				3EECDE322283CD6800E6EC34 /* TceEditFerLvJyInkwellFilter.m in Sources */,
+				3EECDE252283CD6800E6EC34 /* TceEditFerLvJyLordKelvinFilter.m in Sources */,
+				3EECDD992282BB9600E6EC34 /* TceEditBorderListCell.m in Sources */,
+				3EECDE272283CD6800E6EC34 /* TceEditFerLvJyHefeFilter.m in Sources */,
+				3EECDE282283CD6800E6EC34 /* TceEditFerLvJyNashvilleFilter.m in Sources */,
+				3EECDD9F2282BB9600E6EC34 /* TceEditAllFilterManager.m in Sources */,
+				3EECDE242283CD6800E6EC34 /* TceEditFerLvJyWaldenFilter.m in Sources */,
+				3EECDE9F228521D000E6EC34 /* SideRefreshEmptyFooter.m in Sources */,
+				3EF517F3227FD40400DB1EBF /* TCEDoorViewController.m in Sources */,
+				3EECDE292283CD6800E6EC34 /* TceEditFerLvJyFiveInputFilter.m in Sources */,
+				3EECDE2D2283CD6800E6EC34 /* TceEditFerLvJyBrannanFilter.m in Sources */,
+				3EECDE472283D47E00E6EC34 /* TCEPuzzleBarView.m in Sources */,
+				3EECDE312283CD6800E6EC34 /* TceEditFerLvJyValenciaFilter.m in Sources */,
+				3EECDDB62282BB9600E6EC34 /* TceEditFilterView.m in Sources */,
+				3EECDDB82282BB9600E6EC34 /* TceEditCuttingView.m in Sources */,
+				3EECDDEC2282BC0E00E6EC34 /* GPUImageFourInputFilter.m in Sources */,
+				3EECDCE92280235E00E6EC34 /* UIButton+TCEBtn.m in Sources */,
+				3EECDE9E228521D000E6EC34 /* SideRefreshFooter.m in Sources */,
+				3EECDCEC22802A7E00E6EC34 /* UIView+TCEView.m in Sources */,
+				3EECDE8D228520AF00E6EC34 /* NSString+Json.m in Sources */,
+				3EECDE9C228521D000E6EC34 /* UICollectionView+SideRefresh.m in Sources */,
+				3EECDE8022851CF900E6EC34 /* TCEEditStickerView.m in Sources */,
+				3EBDDF5F226D59F6005EDE1B /* AppDelegate.m in Sources */,
+				3EECDEA82285678300E6EC34 /* GTMBase64.m in Sources */,
+				3EECDDBA2282BB9600E6EC34 /* TceEditAdjustView.m in Sources */,
+				3EECDE412283D43000E6EC34 /* TcePuzzlePuzzleView.m in Sources */,
+				3EECDE8522851DC700E6EC34 /* TCEStickerListCell.m in Sources */,
+				3EECDDF32282BC0E00E6EC34 /* TceEditFerLvJy1977Filter.m in Sources */,
+				3EECDE5222840E9200E6EC34 /* TCEPuzzleBgView.m in Sources */,
+				3EECDE9D228521D000E6EC34 /* SideRefreshHeader.m in Sources */,
+				3EECDDFF2282BD3400E6EC34 /* UIImage+TCEImge.m in Sources */,
+				3EECDCF92280446400E6EC34 /* TCEPhotoManager.m in Sources */,
+				3EECDDB92282BB9600E6EC34 /* TceEditClipView.m in Sources */,
+				3EECDE2B2283CD6800E6EC34 /* TceEditFerLvJyToasterFilter.m in Sources */,
+				3EECDE2F2283CD6800E6EC34 /* TceEditFerLvJyEarlybirdFilter.m in Sources */,
+				3EECDE422283D43000E6EC34 /* TcePuzzleViewFrameAndPoint.m in Sources */,
+				3EECDE4F22840A0000E6EC34 /* TCEPuzzleStyleView.m in Sources */,
+				3EECDE552284227400E6EC34 /* TCEPhotoSizeView.m in Sources */,
+				3EECDE342283CD6800E6EC34 /* TceEditFerLvJySierraFilter.m in Sources */,
+				3EECDE2A2283CD6800E6EC34 /* TceEditFerLvJyXproIIFilter.m in Sources */,
+				3EECDE5922842B1700E6EC34 /* TCESingle.m in Sources */,
+				3EECDD9B2282BB9600E6EC34 /* TceEditBorderView.m in Sources */,
+				3EECDDBC2282BB9600E6EC34 /* TceEditRotateView.m in Sources */,
+				3EECDE352283CD6800E6EC34 /* TceEditFerLvJyLomofiFilter.m in Sources */,
+				3EECDD9C2282BB9600E6EC34 /* TceEditEditViewController.m in Sources */,
+				3EECDDBB2282BB9600E6EC34 /* TceEditAdjustManager.m in Sources */,
+				3EECDEA1228521D000E6EC34 /* UICollectionView+SideExtension.m in Sources */,
+				3EECDEA0228521D000E6EC34 /* SideRefresh.m in Sources */,
+				3EECDCF5228034D900E6EC34 /* TCEPhotoCollectionViewCell.m in Sources */,
+				3EECDDB72282BB9600E6EC34 /* TceEditFilterListCell.m in Sources */,
+				3EECDCF12280347B00E6EC34 /* TCEPhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EBDDF63226D59F6005EDE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EBDDF64226D59F6005EDE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EBDDF68226D59F8005EDE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EBDDF69226D59F8005EDE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EBDDF6E226D59F8005EDE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EBDDF6F226D59F8005EDE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EBDDF71226D59F8005EDE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B173CF9E75C1716CAFEEB748 /* Pods-TrickEditPic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8763837UG8;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TrickEditPic/Public-trick/PublicPCH.pch";
+				INFOPLIST_FILE = TrickEditPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpro.TrickEditPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "pic-dis";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3EBDDF72226D59F8005EDE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24155A88F0CF69161545E275 /* Pods-TrickEditPic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8763837UG8;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TrickEditPic/Public-trick/PublicPCH.pch";
+				INFOPLIST_FILE = TrickEditPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpro.TrickEditPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "pic-dis";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EBDDF55226D59F6005EDE1B /* Build configuration list for PBXProject "TrickEditPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBDDF6E226D59F8005EDE1B /* Debug */,
+				3EBDDF6F226D59F8005EDE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EBDDF70226D59F8005EDE1B /* Build configuration list for PBXNativeTarget "TrickEditPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBDDF71226D59F8005EDE1B /* Debug */,
+				3EBDDF72226D59F8005EDE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EBDDF52226D59F6005EDE1B /* Project object */;
+}

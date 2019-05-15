@@ -1,0 +1,26 @@
+//
+//  PublicPCH.pch
+//  TrickEditPic
+//
+//  Created by zzb on 2019/5/6.
+//  Copyright © 2019 json. All rights reserved.
+//
+
+#ifndef PublicPCH_pch
+#define PublicPCH_pch
+//UIYDXP68JDTBJO55
+#import "PublicColor.h"
+#import "PublicVar.h"
+#import "Masonry.h"
+#import "UIButton+TCEBtn.h"
+#import "UIView+TCEView.h"
+#import "UIImage+TCEImge.h"
+#import "NSString+Json.h"
+#import "GPUImage.h"
+#import "GPUImageFourInputFilter.h"
+#import <Photos/Photos.h>
+#import "SVProgressHUD.h"
+#import "AFNetworking.h"
+#import "TCENetManager.h"
+
+#endif /* PublicPCH_pch */
